@@ -1,0 +1,125 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content: space-around;
+    background-color: #8daef4;
+    font-family: 'Poppins', sans-serif;
+}
+
+header nav{
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+header nav img{
+    height: 70px;
+    width: 70px;
+    border: 1px;
+    border-radius: 20px;
+}
+
+header nav .list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav div{
+    display: flex;
+    flex-grow: 40px;
+    gap: 10px;
+}
+
+.main{
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    background-color: rgb(230, 249, 201);
+}
+
+main div img{
+    height: 300px;
+    width: 200px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    list-style: none;
+}
+
+button{
+    color: #ffffff;
+    background-color: #3c3cf5;
+    padding: 4px,10px;
+    width: fit-content;
+    border: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover{
+
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid black;
+
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-section h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(102, 102, 249);
+}
+
+.left-section p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section button{
+    display: flex;
+    justify-items:center ;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    background-color: rgb(203, 178, 66);
+}
+
+footer ul a{
+    color: #ffffff;
+}
+
+.fa-instagram{
+    background-color: azure;
+}
